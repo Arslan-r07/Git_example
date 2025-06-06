@@ -15,7 +15,7 @@ pipeline {
                 sshPublisher(
                     publishers: [
                         sshPublisherDesc(
-                            configName: 'your-ssh-server',  // Название SSH-сервера в Jenkins
+                            configName: 'first-server',  // Название SSH-сервера в Jenkins
                             transfers: [
                                 sshTransfer(
                                     sourceFiles: '**/*',
